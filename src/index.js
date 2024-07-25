@@ -15,6 +15,7 @@ const routes = {
   "ghcr.e-whisper.com": "https://ghcr.io",
   "cloudsmith.e-whisper.com": "https://docker.cloudsmith.io",
   "ecr.e-whisper.com": "https://public.ecr.aws",
+  "mcr.e-whisper.com": "https://mcr.microsoft.com",
 
   // staging
   "docker-staging.e-whisper.com": dockerHub,
