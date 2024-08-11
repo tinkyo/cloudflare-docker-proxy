@@ -7,18 +7,18 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.e-whisper.com": dockerHub,
-  "quay.e-whisper.com": "https://quay.io",
-  "gcr.e-whisper.com": "https://gcr.io",
-  "k8s-gcr.e-whisper.com": "https://k8s.gcr.io",
-  "k8s.e-whisper.com": "https://registry.k8s.io",
-  "ghcr.e-whisper.com": "https://ghcr.io",
-  "cloudsmith.e-whisper.com": "https://docker.cloudsmith.io",
-  "ecr.e-whisper.com": "https://public.ecr.aws",
-  "mcr.e-whisper.com": "https://mcr.microsoft.com",
+  "docker.ooya.site": dockerHub,
+  "quay.ooya.site": "https://quay.io",
+  "gcr.ooya.site": "https://gcr.io",
+  "k8s-gcr.ooya.site": "https://k8s.gcr.io",
+  "k8s.ooya.site": "https://registry.k8s.io",
+  "ghcr.ooya.site": "https://ghcr.io",
+  "cloudsmith.ooya.site": "https://docker.cloudsmith.io",
+  "ecr.ooya.site": "https://public.ecr.aws",
+  "mcr.ooya.site": "https://mcr.microsoft.com",
 
   // staging
-  "docker-staging.e-whisper.com": dockerHub,
+  "docker-staging.ooya.site": dockerHub,
 };
 
 function routeByHosts(host) {
